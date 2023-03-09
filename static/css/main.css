@@ -28,6 +28,10 @@ main {
   width: 100%;
 }
 
+i::before {
+  content: "\f05a";
+}
+
 .logo {
   cursor: pointer;
 }

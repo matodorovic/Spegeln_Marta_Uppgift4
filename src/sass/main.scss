@@ -31,6 +31,10 @@ main {
   width: 100%;
 }
 
+i::before {
+  content: "\f05a";
+}
+
 @import "variables.scss";
 @import "sections/header.scss";
 @import "sections/nav-menu.scss";
