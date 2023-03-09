@@ -29,7 +29,7 @@ data.then((data) => {
     li.innerHTML = `<p class="date">${date}</p>
     <a href="/movies/${movie.id}">
     <p class="time">${time}</p>
-    <img src="${movie.image.url}"/>
+    <img alt="${movie.title} movie poster"src="${movie.image.url}"/>
     ${movie.title.slice(0, 17)}</a>`;
 
     switch (true) {
